@@ -36,7 +36,7 @@ const Hero = () => {
           <img src={HeroImg} alt="hero" />
         </div>
       </div>
-      <div className="bg-[#A02279] mt-24 h-16 flex gap-64 pt-4 items-center justify-around">
+      <div className="bg-[#A02279] mt-24 h-16 flex gap-64 py-4 items-center justify-around">
         <img src={MBToken} alt="" />
         <img src={MetaMask} alt="" />
         <img src={OpenSea} alt="" />
