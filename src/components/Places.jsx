@@ -12,9 +12,6 @@ import Img8 from "../assets/h.svg";
 const Places = () => {
   return (
     <section className="px-24  mb-11">
-      <h2 className="text-center mt-14 mb-11 text-5xl">
-        Inspiration for your next adventure
-      </h2>
       <div className="grid-cols-4 grid gap-6 mx-auto">
         <Place img={Img1} />
         <Place img={Img2} />
