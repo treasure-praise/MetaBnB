@@ -7,8 +7,8 @@ import OpenSea from "../assets/OpenSea.svg";
 const Hero = () => {
   return (
     <main>
-      <div className="flex px-24 w-full mt-32 items-center justify-between gap-12">
-        <div className="w-1/2  gap-12 flex flex-col">
+      <div className="lg:flex md:px-24 px-8 w-full mt-12 md:mt-32 items-center justify-between gap-12">
+        <div className="lg:w-1/2  gap-12 flex flex-col">
           <h1 className="text-6xl text-[#434343]">
             Rent a <span className="text-[#A02279]">Place </span> away from{" "}
             <br /> <span className="text-[#A02279]">Home </span> in the{" "}
@@ -32,14 +32,14 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="mt-12 mx-auto lg:mt-0">
           <img src={HeroImg} alt="hero" />
         </div>
       </div>
-      <div className="bg-[#A02279] mt-24 h-16 flex gap-64 py-4 items-center justify-around">
-        <img src={MBToken} alt="" />
-        <img src={MetaMask} alt="" />
-        <img src={OpenSea} alt="" />
+      <div className="bg-[#A02279] mx-auto w-full mt-24 h-full flex lg:gap-64 py-4 items-center space justify-around">
+        <img src={MBToken} alt="" className="h-4 md:h-8" />
+        <img src={MetaMask} alt="" className="h-4 md:h-8" />
+        <img src={OpenSea} alt="" className="h-4 md:h-8" />
       </div>
     </main>
   );

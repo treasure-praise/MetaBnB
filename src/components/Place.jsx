@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 const Place = ({ img }) => {
   return (
-    <div className="border rounded-2xl h-96 w-72 p-4 text-[#434343] text-xs">
+    <div className="border rounded-2xl  p-4 text-[#434343] text-xs">
       <img
         className="object-contain mx-auto mb-4   w-full"
         src={img}

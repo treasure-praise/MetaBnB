@@ -11,8 +11,8 @@ import Img8 from "../assets/h.svg";
 
 const Places = () => {
   return (
-    <section className="px-24  mb-11">
-      <div className="grid-cols-4 grid gap-6 mx-auto">
+    <section className="md:px-24 px-8 mb-11">
+      <div className="grid-cols-1 md:grid-cols-3 lg:grid-cols-4 grid gap-4  mx-auto">
         <Place img={Img1} />
         <Place img={Img2} />
         <Place img={Img3} />
